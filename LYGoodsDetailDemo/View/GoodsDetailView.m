@@ -157,17 +157,12 @@
     buyExplainImageView.frame = CGRectMake(0, 0, ScreenWidth, ScreenWidth);
     [buyExplainImageView setContentMode:UIViewContentModeScaleAspectFit];
     
-//    WS(weakSelf);
-//    [[MMDImageHandle instance] loadImageWithURL:buyInfoImageUrl defaultImage:@"goods_listPlaceholder" block:^(NSData * _Nullable data) {
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//            // 购买说明 新的布局
-//            buyExplainImageView.image = [UIImage imageWithData:data];
-//            buyExplainImageView.frame = CGRectMake(0, 0, ScreenWidth, buyExplainImageView.image.size.height);
-//            [buyExplainImageView resetHeightWhenWidthFixedWithImage:buyExplainImageView.image];
-//            [weakSelf.buyExplainNewView addSubview:buyExplainImageView];
-//            weakSelf.buyExplainNewView.height = buyExplainImageView.maxY;
-//        });
-//    }];
+    // 购买说明 新的布局
+    buyExplainImageView.image = [UIImage imageNamed:buyInfoImageUrl];
+    buyExplainImageView.frame = CGRectMake(0, 0, ScreenWidth, buyExplainImageView.image.size.height);
+    [buyExplainImageView resetHeightWhenWidthFixedWithImage:buyExplainImageView.image];
+    [self.buyExplainNewView addSubview:buyExplainImageView];
+    self.buyExplainNewView.height = buyExplainImageView.maxY;
 }
 
 - (void)setShopName:(NSString *)shopName {

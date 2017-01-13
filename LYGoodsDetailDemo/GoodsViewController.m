@@ -156,9 +156,9 @@
 }
 - (InstallmentsPicker *)installmentsPicker {
     if (!_installmentsPicker) {
-        NSString *monthly = [NSString stringWithFormat:@"￥%@ - ￥%@",@"1700", @"2000"];//￥1700 - ￥2000
+        NSMutableArray *monthlyArray = (NSMutableArray *)@[@"￥5000", @"￥1700 - ￥2000", @"￥900 - ￥1100", @"￥600 - ￥800", @"￥500 - ￥600"];
         NSArray *terms = @[@1, @3, @6, @9, @12];
-        _installmentsPicker = [[InstallmentsPicker alloc] initWithFrame:CGRectMake(0, _nameView.maxY, ScreenWidth, 100 + 22) withMonthly:monthly];
+        _installmentsPicker = [[InstallmentsPicker alloc] initWithFrame:CGRectMake(0, _nameView.maxY, ScreenWidth, 100 + 22) withMonthlyArray:monthlyArray];
         _installmentsPicker.dataArray = [NSMutableArray arrayWithArray:terms];
     }
     return _installmentsPicker;
@@ -238,7 +238,7 @@
         _detailView.delegate = self;
         _detailView.detailImageUrlList = @[@"detailImage"];
         _detailView.paramsDictionary = @{@"规格":@"KM-183mm",@"容量":@"1000ML",@"颜色":@"尊贵金黄"};
-        _detailView.buyInfoImageUrl = @"detailImage";
+        _detailView.buyInfoImageUrl = @"goods_detailPlaceholder";
         
     }
     return _detailView;

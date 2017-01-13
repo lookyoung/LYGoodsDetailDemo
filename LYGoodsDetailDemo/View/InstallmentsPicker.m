@@ -33,12 +33,12 @@
 @implementation InstallmentsPicker
 
 
-- (instancetype)initWithFrame:(CGRect)frame withMonthly:(NSString *)monthly
+- (instancetype)initWithFrame:(CGRect)frame withMonthlyArray:(NSMutableArray *)monthlyArray
 {
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor whiteColor];
-        _monthly = monthly;
+        _monthlyArray = monthlyArray;
         [self addSubview:self.nameLabel];
         [self addSubview:self.baseView];
         [self addIconView];
@@ -81,11 +81,12 @@
     } else if (dataArray.count == 1) {
         _dataArray = [NSMutableArray arrayWithObjects:@"", @"", dataArray[0], @"", @"", nil];
     }
-    
-    _monthlyArray = [NSMutableArray array];
-    for (int i = 0; i < 5; i++) {
-        [_monthlyArray addObject:_monthly];
-    }
+//    if (_monthly) {
+//        _monthlyArray = [NSMutableArray array];
+//        for (int i = 0; i < 5; i++) {
+//            [_monthlyArray addObject:_monthly];
+//        }
+//    }
     
     int count = (int)_dataArray.count;
     int mid = count / 2;
@@ -192,7 +193,7 @@
         _monthlyInstall = [[UILabel alloc] initWithFrame:CGRectMake(0, _baseView.maxY + 12, self.width, 16)];
         _monthlyInstall.textAlignment = NSTextAlignmentCenter;
         
-        [self monthlyResetWithAmount:_monthly];
+        [self monthlyResetWithAmount:_monthlyArray[0]];
     }
     return _monthlyInstall;
 }

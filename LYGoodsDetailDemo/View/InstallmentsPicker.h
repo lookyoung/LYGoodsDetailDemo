@@ -14,7 +14,6 @@
 /** 月供金额数据数组 */
 @property (nonatomic, strong) NSMutableArray *monthlyArray;
 /** 月供金额数据 */
-@property (nonatomic, strong) NSString *monthly;
-- (instancetype)initWithFrame:(CGRect)frame withMonthly:(NSString *)monthly;
-
+//@property (nonatomic, strong) NSString *monthly;
+- (instancetype)initWithFrame:(CGRect)frame withMonthlyArray:(NSMutableArray *)monthlyArray;
 @end
