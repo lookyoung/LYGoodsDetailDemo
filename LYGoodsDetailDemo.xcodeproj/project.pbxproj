@@ -15,6 +15,17 @@
 		CD68A4001E26245A0053441E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD68A3FE1E26245A0053441E /* LaunchScreen.storyboard */; };
 		CD68A40B1E26245A0053441E /* LYGoodsDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A40A1E26245A0053441E /* LYGoodsDetailDemoTests.m */; };
 		CD68A4161E26245A0053441E /* LYGoodsDetailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A4151E26245A0053441E /* LYGoodsDetailDemoUITests.m */; };
+		CD68A4251E2628360053441E /* GoodsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A4241E2628360053441E /* GoodsViewController.m */; };
+		CD68A4281E2637E60053441E /* UIView+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A4271E2637E60053441E /* UIView+UIView.m */; };
+		CD68A42D1E263B0C0053441E /* UILabel+StringFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A42C1E263B0C0053441E /* UILabel+StringFrame.m */; };
+		CD68A4311E263C340053441E /* InstallmentsPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A4301E263C340053441E /* InstallmentsPicker.m */; };
+		CD68A4341E26425D0053441E /* UIColor+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD68A4331E26425D0053441E /* UIColor+Wrapper.m */; };
+		CD92C76C1E27797A009DB4A1 /* UIImageView+Wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD92C76B1E27797A009DB4A1 /* UIImageView+Wrapper.m */; };
+		CDFA1A6B1E2728CA0000B6DC /* GoodsIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFA1A6A1E2728CA0000B6DC /* GoodsIndexView.m */; };
+		CDFA1A6E1E27620A0000B6DC /* GoodsDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFA1A6D1E27620A0000B6DC /* GoodsDetailView.m */; };
+		CDFA1A711E2766F50000B6DC /* GoodsHeadLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFA1A701E2766F50000B6DC /* GoodsHeadLineView.m */; };
+		CDFA1A741E276BE70000B6DC /* GoodsParameterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFA1A731E276BE70000B6DC /* GoodsParameterCell.m */; };
+		CDFA1A771E276E640000B6DC /* GoodsConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFA1A761E276E640000B6DC /* GoodsConfirmView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,29 @@
 		CD68A4111E26245A0053441E /* LYGoodsDetailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYGoodsDetailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD68A4151E26245A0053441E /* LYGoodsDetailDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYGoodsDetailDemoUITests.m; sourceTree = "<group>"; };
 		CD68A4171E26245A0053441E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD68A4231E2628360053441E /* GoodsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsViewController.h; sourceTree = "<group>"; };
+		CD68A4241E2628360053441E /* GoodsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsViewController.m; sourceTree = "<group>"; };
+		CD68A4261E2637E60053441E /* UIView+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+UIView.h"; path = "../UIView+UIView.h"; sourceTree = "<group>"; };
+		CD68A4271E2637E60053441E /* UIView+UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+UIView.m"; path = "../UIView+UIView.m"; sourceTree = "<group>"; };
+		CD68A4291E26382E0053441E /* Demo-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-PrefixHeader.pch"; sourceTree = "<group>"; };
+		CD68A42B1E263B0C0053441E /* UILabel+StringFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringFrame.h"; sourceTree = "<group>"; };
+		CD68A42C1E263B0C0053441E /* UILabel+StringFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringFrame.m"; sourceTree = "<group>"; };
+		CD68A42F1E263C340053441E /* InstallmentsPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallmentsPicker.h; sourceTree = "<group>"; };
+		CD68A4301E263C340053441E /* InstallmentsPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallmentsPicker.m; sourceTree = "<group>"; };
+		CD68A4321E26425D0053441E /* UIColor+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Wrapper.h"; sourceTree = "<group>"; };
+		CD68A4331E26425D0053441E /* UIColor+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Wrapper.m"; sourceTree = "<group>"; };
+		CD92C76A1E27797A009DB4A1 /* UIImageView+Wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Wrapper.h"; sourceTree = "<group>"; };
+		CD92C76B1E27797A009DB4A1 /* UIImageView+Wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Wrapper.m"; sourceTree = "<group>"; };
+		CDFA1A691E2728CA0000B6DC /* GoodsIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsIndexView.h; sourceTree = "<group>"; };
+		CDFA1A6A1E2728CA0000B6DC /* GoodsIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsIndexView.m; sourceTree = "<group>"; };
+		CDFA1A6C1E27620A0000B6DC /* GoodsDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsDetailView.h; sourceTree = "<group>"; };
+		CDFA1A6D1E27620A0000B6DC /* GoodsDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsDetailView.m; sourceTree = "<group>"; };
+		CDFA1A6F1E2766F50000B6DC /* GoodsHeadLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsHeadLineView.h; sourceTree = "<group>"; };
+		CDFA1A701E2766F50000B6DC /* GoodsHeadLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsHeadLineView.m; sourceTree = "<group>"; };
+		CDFA1A721E276BE70000B6DC /* GoodsParameterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsParameterCell.h; sourceTree = "<group>"; };
+		CDFA1A731E276BE70000B6DC /* GoodsParameterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsParameterCell.m; sourceTree = "<group>"; };
+		CDFA1A751E276E640000B6DC /* GoodsConfirmView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsConfirmView.h; sourceTree = "<group>"; };
+		CDFA1A761E276E640000B6DC /* GoodsConfirmView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsConfirmView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +137,16 @@
 			children = (
 				CD68A3F31E26245A0053441E /* AppDelegate.h */,
 				CD68A3F41E26245A0053441E /* AppDelegate.m */,
+				CD68A4231E2628360053441E /* GoodsViewController.h */,
+				CD68A4241E2628360053441E /* GoodsViewController.m */,
 				CD68A3F61E26245A0053441E /* ViewController.h */,
 				CD68A3F71E26245A0053441E /* ViewController.m */,
 				CD68A3F91E26245A0053441E /* Main.storyboard */,
 				CD68A3FC1E26245A0053441E /* Assets.xcassets */,
 				CD68A3FE1E26245A0053441E /* LaunchScreen.storyboard */,
 				CD68A4011E26245A0053441E /* Info.plist */,
+				CD68A42E1E263C100053441E /* View */,
+				CD68A42A1E263AD10053441E /* Util */,
 				CD68A3F01E26245A0053441E /* Supporting Files */,
 			);
 			path = LYGoodsDetailDemo;
@@ -117,6 +155,7 @@
 		CD68A3F01E26245A0053441E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD68A4291E26382E0053441E /* Demo-PrefixHeader.pch */,
 				CD68A3F11E26245A0053441E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +177,40 @@
 				CD68A4171E26245A0053441E /* Info.plist */,
 			);
 			path = LYGoodsDetailDemoUITests;
+			sourceTree = "<group>";
+		};
+		CD68A42A1E263AD10053441E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CD92C76A1E27797A009DB4A1 /* UIImageView+Wrapper.h */,
+				CD92C76B1E27797A009DB4A1 /* UIImageView+Wrapper.m */,
+				CD68A4321E26425D0053441E /* UIColor+Wrapper.h */,
+				CD68A4331E26425D0053441E /* UIColor+Wrapper.m */,
+				CD68A4261E2637E60053441E /* UIView+UIView.h */,
+				CD68A4271E2637E60053441E /* UIView+UIView.m */,
+				CD68A42B1E263B0C0053441E /* UILabel+StringFrame.h */,
+				CD68A42C1E263B0C0053441E /* UILabel+StringFrame.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CD68A42E1E263C100053441E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD68A42F1E263C340053441E /* InstallmentsPicker.h */,
+				CD68A4301E263C340053441E /* InstallmentsPicker.m */,
+				CDFA1A691E2728CA0000B6DC /* GoodsIndexView.h */,
+				CDFA1A6A1E2728CA0000B6DC /* GoodsIndexView.m */,
+				CDFA1A6C1E27620A0000B6DC /* GoodsDetailView.h */,
+				CDFA1A6D1E27620A0000B6DC /* GoodsDetailView.m */,
+				CDFA1A6F1E2766F50000B6DC /* GoodsHeadLineView.h */,
+				CDFA1A701E2766F50000B6DC /* GoodsHeadLineView.m */,
+				CDFA1A721E276BE70000B6DC /* GoodsParameterCell.h */,
+				CDFA1A731E276BE70000B6DC /* GoodsParameterCell.m */,
+				CDFA1A751E276E640000B6DC /* GoodsConfirmView.h */,
+				CDFA1A761E276E640000B6DC /* GoodsConfirmView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD92C76C1E27797A009DB4A1 /* UIImageView+Wrapper.m in Sources */,
+				CD68A4281E2637E60053441E /* UIView+UIView.m in Sources */,
+				CD68A4311E263C340053441E /* InstallmentsPicker.m in Sources */,
+				CDFA1A6B1E2728CA0000B6DC /* GoodsIndexView.m in Sources */,
 				CD68A3F81E26245A0053441E /* ViewController.m in Sources */,
 				CD68A3F51E26245A0053441E /* AppDelegate.m in Sources */,
+				CD68A42D1E263B0C0053441E /* UILabel+StringFrame.m in Sources */,
+				CDFA1A6E1E27620A0000B6DC /* GoodsDetailView.m in Sources */,
+				CD68A4341E26425D0053441E /* UIColor+Wrapper.m in Sources */,
+				CDFA1A741E276BE70000B6DC /* GoodsParameterCell.m in Sources */,
 				CD68A3F21E26245A0053441E /* main.m in Sources */,
+				CD68A4251E2628360053441E /* GoodsViewController.m in Sources */,
+				CDFA1A711E2766F50000B6DC /* GoodsHeadLineView.m in Sources */,
+				CDFA1A771E276E640000B6DC /* GoodsConfirmView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +512,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7PW728F95Z;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LYGoodsDetailDemo/Demo-PrefixHeader.pch";
 				INFOPLIST_FILE = LYGoodsDetailDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mime.LYGoodsDetailDemo;
@@ -440,6 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7PW728F95Z;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LYGoodsDetailDemo/Demo-PrefixHeader.pch";
 				INFOPLIST_FILE = LYGoodsDetailDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mime.LYGoodsDetailDemo;
@@ -516,6 +602,7 @@
 				CD68A41C1E26245A0053441E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD68A41D1E26245A0053441E /* Build configuration list for PBXNativeTarget "LYGoodsDetailDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +611,7 @@
 				CD68A41F1E26245A0053441E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD68A4201E26245A0053441E /* Build configuration list for PBXNativeTarget "LYGoodsDetailDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +620,7 @@
 				CD68A4221E26245A0053441E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

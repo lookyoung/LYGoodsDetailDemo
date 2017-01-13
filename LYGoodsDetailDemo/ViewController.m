@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GoodsViewController.h"
 
 @interface ViewController ()
 
@@ -17,8 +18,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+
+    
+    UIButton *goodsBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    goodsBtn.frame = CGRectMake(150, 300, 100, 60);
+    [goodsBtn setTitle:@"进去商品详情" forState:UIControlStateNormal];
+    [goodsBtn addTarget:self action:@selector(pushToDetailVC:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:goodsBtn];
 }
 
+- (void)pushToDetailVC:(id)sender {
+    GoodsViewController *vc = [[GoodsViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
